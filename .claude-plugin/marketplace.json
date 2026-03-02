@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "infinity-workflows",
+  "version": "1.0.0",
+  "description": "Infinity-light 的完整 Claude Code 工作流套件 Marketplace",
+  "owner": {
+    "name": "Infinity-light",
+    "email": "your-email@example.com"
+  },
+  "plugins": [
+    {
+      "name": "workflow-kit",
+      "source": "./plugins/workflow-kit",
+      "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → diagnosis → verification",
+      "version": "2.1.0",
+      "author": {
+        "name": "Infinity-light"
+      },
+      "category": "productivity",
+      "keywords": ["workflow", "skills", "discovery", "planning", "execution", "diagnosis"]
+    }
+  ]
+}
