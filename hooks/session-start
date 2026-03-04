@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# SessionStart hook for workflow-kit plugin
+# Injects CLAUDE.md content into Claude Code's global context
+
+set -euo pipefail
+
+# Determine plugin root directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
+PLUGIN_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+# Read CLAUDE.md content and process with tr to handle Windows line endings
+claude_md_content=$(tr -d '\r' < "${PLUGIN_ROOT}/CLAUDE.md" 2>&1 || echo "Error reading CLAUDE.md")
+
+# Escape string for JSON embedding using bash parameter substitution.
+escape_for_json() {
+    local s="$1"
+    s="${s//\\/\\\\}"
+    s="${s//\"/\\\"}"
+    s="${s//$'\n'/\\n}"
+    s="${s//$'\r'/\\r}"
+    s="${s//$'\t'/\\t}"
+    printf '%s' "$s"
+}
+
+claude_md_escaped=$(escape_for_json "$claude_md_content")
+
+# Output JSON directly without heredoc to avoid interpretation issues
+# Use literal \n in the format string (which is \\n in bash)
+printf '{%s\n' ""
+printf '  "additional_context": "<EXTREMELY_IMPORTANT>\\n%s\\n</EXTREMELY_IMPORTANT>",%s\n' "$claude_md_escaped" ""
+printf '  "hookSpecificOutput": {%s\n' ""
+printf '    "hookEventName": "SessionStart",%s\n' ""
+printf '    "additionalContext": "<EXTREMELY_IMPORTANT>\\n%s\\n</EXTREMELY_IMPORTANT>"%s\n' "$claude_md_escaped" ""
+printf '  }%s\n' ""
+printf '}%s\n' ""
+
+exit 0
