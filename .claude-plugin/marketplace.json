@@ -12,7 +12,7 @@
       "name": "workflow-kit",
       "source": "plugins/workflow-kit",
       "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → diagnosis → verification",
-      "version": "2.1.0",
+      "version": "2.3.0",
       "author": {
         "name": "Infinity-light"
       },
