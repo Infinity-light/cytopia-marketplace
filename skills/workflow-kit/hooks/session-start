@@ -1,3 +1,10 @@
+# ---
+# role: SessionStart钩子脚本，启动时将CLAUDE.md内容注入Claude全局上下文
+# depends:
+#   - ../CLAUDE.md
+# status: PENDING
+# ---
+
 #!/usr/bin/env bash
 # SessionStart hook for workflow-kit plugin
 # Injects CLAUDE.md content into Claude Code's global context

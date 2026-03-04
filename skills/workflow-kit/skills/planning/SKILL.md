@@ -2,6 +2,17 @@
 name: planning
 description: 当用户知道要做什么但不知道怎么做时使用。将 Discovery 的 PRD 转化为可直接实现的工程化文件骨架。主 Agent 内部完成文件契约编写。
 ---
+<!-- ---
+role: Planning阶段Skill，将PRD转化为可直接实现的工程化文件骨架和契约
+depends:
+  - references/module-template.md
+  - references/architecture-checklist.md
+  - references/frontend-design-checklist.md
+  - references/module-checklist.md
+status: PENDING
+--- -->
+
+
 
 ## 铁律
 

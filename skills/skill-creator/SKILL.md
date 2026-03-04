@@ -2,6 +2,15 @@
 name: skill-creator
 description: 创建有效技能的指南。当用户想要创建新技能（或更新现有技能）以扩展Claude能力时使用，包括专业知识、工作流程或工具集成。
 ---
+<!-- ---
+role: Skill创建辅助Skill，指导创建有效的Claude Code skills，包含渐进式披露设计原则
+depends:
+  - references/output-patterns.md
+  - references/workflows.md
+status: PENDING
+--- -->
+
+
 
 # 技能创建器
 

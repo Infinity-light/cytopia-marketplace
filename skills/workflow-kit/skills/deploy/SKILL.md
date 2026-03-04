@@ -2,6 +2,14 @@
 name: deploy
 description: 部署与环境同步。首次部署前做全链路约束探测，首次部署用 `deploy-setup all`，后续 .env 变更用 `deploy-setup sync-env`。当用户说"部署"、"deploy"、"上线"、"配置CI/CD"、"同步环境变量"、"更新secret"、"sync env"时触发。
 ---
+<!-- ---
+role: Deploy阶段Skill，执行全链路约束探测和CI/CD部署，支持deploy-setup工具
+depends:
+  - verification/SKILL.md
+status: PENDING
+--- -->
+
+
 
 ## 铁律
 

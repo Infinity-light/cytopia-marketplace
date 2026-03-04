@@ -1,3 +1,12 @@
+<!-- ---
+role: 项目全局上下文指南，定义Claude工作原则、阶段路由和行为规范
+depends:
+  - .claude-plugin/marketplace.json
+  - .claude-plugin/plugin.json
+  - hooks/hooks.json
+status: PENDING
+--- -->
+
 # Claude 工作指南
 
 ## 第零原则：Skill-First

@@ -2,6 +2,14 @@
 name: discovery
 description: 当用户提出新需求、新问题、新想法或表达困惑时使用。通过"为什么-是什么-怎么办"三部曲，输出结构化的理解。Discovery 是工作流的唯一入口，必须完成后才能进入 Planning。
 ---
+<!-- ---
+role: Discovery阶段Skill，通过为什么-是什么-怎么办三部曲进行需求调研和信息收集
+depends:
+  - references/（如需要）
+status: PENDING
+--- -->
+
+
 
 ## 核心方法论：三部曲
 

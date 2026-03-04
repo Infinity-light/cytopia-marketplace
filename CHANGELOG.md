@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.3.0] - 2026-03-05
+
+### Changed
+- **架构重组**: 合并 `Cytopia-claude-code-workkit-plugin` 和 `cytopia-marketplace` 为统一仓库 `cytopia-workflow`
+- 更新 marketplace.json 使用 `source: path` 指向本地路径
+- workflow-kit 插件移至 `skills/workflow-kit/` 目录
+- 保留所有现有 skill 功能不变
+- 统一版本管理，消除版本不一致问题
+
+### Repository Changes
+- 新仓库地址: https://github.com/Infinity-light/cytopia-workflow
+- 原开发仓库: Cytopia-claude-code-workkit-plugin (已归档)
+- 原市场仓库: cytopia-marketplace (已归档)
+
+---
+
 ## [2.2.0] - 2026-03-03
 
 ### Changed

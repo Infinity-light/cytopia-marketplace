@@ -2,6 +2,14 @@
 name: verification
 description: 部署后验证阶段。当 deploy 完成后触发，使用 Playwright MCP 对生产环境做针对性验证（支持 JavaScript 执行），验证通过后加载 documentation-update skill 更新文档。当用户说"验证"、"verify"、"检查部署结果"、"测一下线上"时触发。
 ---
+<!-- ---
+role: Verification阶段Skill，部署后使用Playwright验证生产环境，通过后触发文档更新
+depends:
+  - documentation-update/SKILL.md
+status: PENDING
+--- -->
+
+
 
 ## 铁律
 

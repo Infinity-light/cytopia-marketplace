@@ -2,6 +2,15 @@
 name: documentation-update
 description: 文档更新阶段。触发场景：当功能完成后，更新项目文档时调用。审核修缮项目中的CLAUDE.md文档，确保文档与代码实现保持一致。
 ---
+<!-- ---
+role: Documentation-Update阶段Skill，审核和更新项目CLAUDE.md文档，确保文档与代码一致
+depends:
+  - 项目根目录CLAUDE.md
+  - 项目根目录README.md
+status: PENDING
+--- -->
+
+
 
 # 文档更新阶段
 

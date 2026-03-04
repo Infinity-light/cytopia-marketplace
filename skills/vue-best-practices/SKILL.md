@@ -6,6 +6,14 @@ metadata:
   author: hyf0
   version: "8.0.0"
 ---
+<!-- ---
+role: Vue 3最佳实践辅助Skill，提供TypeScript、vue-tsc和Volar的正确类型模式
+depends:
+  - rules/（各规则文档）
+status: PENDING
+--- -->
+
+
 
 ## Capability Rules
 

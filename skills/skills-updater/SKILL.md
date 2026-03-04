@@ -2,6 +2,18 @@
 name: skills-updater
 description: Check and update installed Claude Code skills from multiple sources (Claude plugins and npx skills). Scans for available updates, supports batch or individual updates with intelligent local change merging, and recommends popular skills from skillsmp.com and skills.sh marketplaces. Use when users want to update skills, check for new versions, discover trending skills, or manage their skill collection.
 ---
+<!-- ---
+role: Skill更新管理辅助Skill，检查和更新已安装的Claude Code skills，支持多源市场
+depends:
+  - scripts/check_updates.py
+  - scripts/update_marketplace.py
+  - scripts/recommend_skills.py
+  - scripts/i18n.py
+  - references/marketplaces.md
+status: PENDING
+--- -->
+
+
 
 # Skills Updater
 

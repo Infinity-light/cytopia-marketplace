@@ -2,6 +2,16 @@
 name: smart-fetch
 description: 替代 WebFetch 的智能网页抓取工具。当 WebFetch 返回 403、空内容或内容不完整时自动使用，也适用于知乎、微信公众号等反爬严格的站点。支持 curl_cffi、DrissionPage 浏览器渲染、Jina Reader 三级降级策略。
 ---
+<!-- ---
+role: 智能网页抓取辅助Skill，替代WebFetch，支持三级降级策略抓取反爬严格站点
+depends:
+  - scripts/smart_fetch.py
+  - scripts/site_rules.json
+  - scripts/extractors/
+status: PENDING
+--- -->
+
+
 
 # Smart Fetch Skill
 

@@ -2,6 +2,15 @@
 name: diagnosis
 description: 当用户遇到问题、错误或困惑时使用。找到问题根因并解决。
 ---
+<!-- ---
+role: Diagnosis阶段Skill，诊断问题根因并解决，支持手动触发和Hook自动触发
+depends:
+  - references/debugging-strategies.md
+  - references/error-analysis.md
+status: PENDING
+--- -->
+
+
 
 ## 铁律
 

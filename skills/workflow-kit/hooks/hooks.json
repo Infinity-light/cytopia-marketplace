@@ -1,4 +1,12 @@
 {
+  "_contract": {
+    "role": "定义SessionStart钩子，在会话启动时自动加载CLAUDE.md到上下文",
+    "depends": [
+      "session-start脚本",
+      "../CLAUDE.md"
+    ],
+    "status": "PENDING"
+  },
   "hooks": {
     "SessionStart": [
       {

@@ -2,6 +2,23 @@
 name: execution
 description: 当用户有明确计划、需要实际动手完成任务时使用。通过Subagent按文件契约逐个实现。
 ---
+<!-- ---
+role: Execution阶段Skill，通过Subagent按文件契约逐个实现代码，执行TDD流程
+depends:
+  - references/workflows/coding.md
+  - references/workflows/general.md
+  - references/workflows/content-writing.md
+  - references/practices/python-patterns.md
+  - references/practices/testing-standards.md
+  - references/practices/backend-patterns.md
+  - references/practices/coding-standards.md
+  - references/practices/security-checklist.md
+  - references/practices/typescript-patterns.md
+  - references/practices/react-patterns.md
+status: PENDING
+--- -->
+
+
 
 ## 铁律
 

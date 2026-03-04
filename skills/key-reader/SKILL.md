@@ -2,6 +2,16 @@
 name: key-reader
 description: 当你需要涉及到外部接口的信息或密钥服务，包括但不限于 LLM、多模态模型、向量化模型、云服务器、支付、鉴权等密钥信息时，加载本 Skill。
 ---
+<!-- ---
+role: 密钥读取辅助Skill，安全地读取和管理外部API密钥，支持盲迁移和连通性测试
+depends:
+  - scripts/mask_read.py
+  - scripts/migrate.py
+  - scripts/ping_test.py
+status: PENDING
+--- -->
+
+
 
 # 密钥读取器
 
