@@ -1,19 +1,4 @@
 {
-  "_contract": {
-    "role": "workflow-kit插件元数据定义",
-    "depends": [
-      "skills/discovery/SKILL.md",
-      "skills/planning/SKILL.md",
-      "skills/execution/SKILL.md",
-      "skills/diagnosis/SKILL.md",
-      "skills/verification/SKILL.md",
-      "skills/deploy/SKILL.md",
-      "skills/documentation-update/SKILL.md",
-      "CLAUDE.md",
-      "hooks/hooks.json"
-    ],
-    "status": "PENDING"
-  },
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "workflow-kit",
   "version": "2.3.0",

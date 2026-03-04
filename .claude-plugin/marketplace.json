@@ -1,22 +1,17 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "cytopia-workflow",
+  "name": "cytopia-marketplace",
   "version": "1.0.0",
   "description": "Cytopia Enterprise Claude Code Workflow - 企业级工作流套件",
   "owner": {
     "name": "Cytopia Inc.",
     "email": "devops@cytopia.com"
   },
-  "_contract": {
-    "role": "marketplace-catalog",
-    "depends": [],
-    "status": "active"
-  },
   "plugins": [
     {
       "name": "workflow-kit",
       "source": "./skills/workflow-kit",
-      "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → diagnosis → verification → documentation-update → deploy",
+      "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → diagnosis → verification → documentation-update → deploy，包含7个核心技能和7个扩展技能",
       "version": "2.3.0",
       "author": {
         "name": "Infinity-light",
@@ -25,69 +20,6 @@
       "category": "productivity",
       "keywords": ["workflow", "skills", "discovery", "planning", "execution", "diagnosis", "verification", "deploy"],
       "strict": true
-    },
-    {
-      "name": "key-reader",
-      "source": "./skills/key-reader",
-      "description": "读取密钥、配置文件",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "utility",
-      "keywords": ["key", "config", "secret"]
-    },
-    {
-      "name": "smart-fetch",
-      "source": "./skills/smart-fetch",
-      "description": "智能网页抓取，支持多策略降级",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "utility",
-      "keywords": ["fetch", "web", "crawler", "scraper"]
-    },
-    {
-      "name": "skills-updater",
-      "source": "./skills/skills-updater",
-      "description": "Skill更新和管理工具",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "utility",
-      "keywords": ["skill", "update", "manage"]
-    },
-    {
-      "name": "skill-creator",
-      "source": "./skills/skill-creator",
-      "description": "创建和打包新Skill",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "utility",
-      "keywords": ["skill", "create", "package"]
-    },
-    {
-      "name": "ui-ux-pro-max",
-      "source": "./skills/ui-ux-pro-max",
-      "description": "UI/UX设计规范和组件库",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "design",
-      "keywords": ["ui", "ux", "design", "component"]
-    },
-    {
-      "name": "frontend-design",
-      "source": "./skills/frontend-design",
-      "description": "前端组件设计规范",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "design",
-      "keywords": ["frontend", "design", "component"]
-    },
-    {
-      "name": "vue-best-practices",
-      "source": "./skills/vue-best-practices",
-      "description": "Vue.js最佳实践和规则",
-      "version": "1.0.0",
-      "author": { "name": "Infinity-light" },
-      "category": "development",
-      "keywords": ["vue", "best-practices", "rules"]
     }
   ]
 }
