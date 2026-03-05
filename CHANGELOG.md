@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.4] - 2026-03-05
+
+### Changed
+- **发布同步**：补齐文档与元数据对齐后的版本发布，统一 marketplace 与 workflow-kit 版本号并用于客户端更新感知。
+- **一致性修复**：README / progress / marketplace 描述与实际工作流顺序、仓库口径保持一致。
+
 ## [2.3.3] - 2026-03-05
 
 ### Changed

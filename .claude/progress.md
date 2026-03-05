@@ -2,8 +2,8 @@
 
 ## 当前状态
 
-- 已发布并对齐：`cytopia-marketplace v1.0.3`
-- 已发布并对齐：`workflow-kit v2.3.3`
+- 已发布并对齐：`cytopia-marketplace v1.0.4`
+- 已发布并对齐：`workflow-kit v2.3.4`
 - Canonical Repository：`https://github.com/Infinity-light/cytopia-marketplace`
 
 ## 当前结构（已生效）
@@ -14,7 +14,7 @@
 - Hook 配置：`skills/workflow-kit/hooks/hooks.json`
 - Windows Hook 适配：`skills/workflow-kit/hooks/run-hook.cmd`
 
-## 本轮关键能力（2.3.1 ~ 2.3.3）
+## 本轮关键能力（2.3.1 ~ 2.3.4）
 
 1. SessionStart Hook 已支持 Windows（通过 `run-hook.cmd`）
 2. 部署流程增加 `db-migration-safety` 迁移安全护栏

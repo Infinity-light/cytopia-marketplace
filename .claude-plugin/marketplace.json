@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cytopia-marketplace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cytopia Enterprise Claude Code Workflow - 企业级工作流套件",
   "owner": {
     "name": "Cytopia Inc.",
@@ -12,7 +12,7 @@
       "name": "workflow-kit",
       "source": "./skills/workflow-kit",
       "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → deploy → verification → documentation-update（含 diagnosis 回路），包含7个核心技能和7个扩展技能",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "author": {
         "name": "Infinity-light",
         "url": "https://github.com/Infinity-light"

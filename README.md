@@ -116,8 +116,8 @@ discovery → planning → execution → deploy → verification → documentati
 
 ## 版本信息
 
-- **Marketplace**: cytopia-marketplace v1.0.3
-- **Workflow-Kit**: v2.3.3
+- **Marketplace**: cytopia-marketplace v1.0.4
+- **Workflow-Kit**: v2.3.4
 - **Repository**: https://github.com/Infinity-light/cytopia-marketplace
 
 ## 许可证
