@@ -101,10 +101,27 @@ python -X utf8 "skills/workflow-kit/skills/db-migration-safety/scripts/preflight
 
 ### 结果处理
 
-- `PASS`：可继续 deploy
-- `WARN`：提示风险，建议补齐材料后继续
+- `PASS`：可继续 deploy，进入步骤2
+- `WARN`：**不得直接进入步骤2，必须先进行交互门禁确认**
+  - 必须使用 AskUserQuestion 让用户三选一：
+    1. "先补齐回滚与备份后再继续"（推荐）
+    2. "继续 Deploy（我已知晓风险）"
+    3. "暂停"
+  - 仅当用户明确选择第 2 项时，才可继续进入步骤2
+  - 用户选择第 1 项或第 3 项时，均应暂停部署并先处理对应动作
 - `BLOCK`：**暂停 deploy，先补齐回滚与备份方案**
 - `SKIP`：未命中前提，跳过护栏
+
+#### 交互模板
+
+```text
+检测到 db-migration-safety 返回 WARN：存在数据库变更风险。
+在继续 Deploy 前，请确认你的选择：
+
+1) 先补齐回滚与备份后再继续（推荐）
+2) 继续 Deploy（我已知晓风险）
+3) 暂停
+```
 
 ---
 
