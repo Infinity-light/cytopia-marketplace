@@ -2,7 +2,7 @@
 # role: SessionStart钩子脚本，启动时将CLAUDE.md内容注入Claude全局上下文
 # depends:
 #   - ../CLAUDE.md
-# status: PENDING
+# status: ACTIVE
 # ---
 
 #!/usr/bin/env bash

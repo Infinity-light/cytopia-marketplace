@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.3.3] - 2026-03-05
+
+### Changed
+- **部署确认强化**：`WARN` 现在要求通过 AskUserQuestion 完成三选一显式确认后，才能进入 deploy 第 2 步。
+
+## [2.3.2] - 2026-03-05
+
+### Added
+- **部署安全防护**：引入 `db-migration-safety`，在部署阶段增加数据库迁移安全护栏。
+
+## [2.3.1] - 2026-03-05
+
+### Fixed
+- **Windows Hook 兼容性**：通过 `run-hook.cmd` 使 SessionStart hook 在 Windows 环境可用。
+
 ## [2.3.0] - 2026-03-05
 
 ### Changed
@@ -10,9 +25,9 @@
 - 统一版本管理，消除版本不一致问题
 
 ### Repository Changes
-- 新仓库地址: https://github.com/Infinity-light/cytopia-workflow
-- 原开发仓库: Cytopia-claude-code-workkit-plugin (已归档)
-- 原市场仓库: cytopia-marketplace (已归档)
+- 当前 Canonical Repo: https://github.com/Infinity-light/cytopia-marketplace
+- 历史开发仓库: Cytopia-claude-code-workkit-plugin (已归档)
+- 历史整合仓库名: cytopia-workflow（仅作为本地工作目录命名）
 
 ---
 

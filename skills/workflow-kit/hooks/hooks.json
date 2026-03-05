@@ -5,7 +5,7 @@
       "session-start脚本",
       "../CLAUDE.md"
     ],
-    "status": "PENDING"
+    "status": "ACTIVE"
   },
   "hooks": {
     "SessionStart": [
