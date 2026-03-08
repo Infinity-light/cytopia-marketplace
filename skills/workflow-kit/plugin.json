@@ -1,6 +1,6 @@
 {
   "name": "workflow-kit",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "description": "完整的 Claude Code 工作流套件：discovery → planning → execution → deploy → verification → documentation-update（含 diagnosis 回路, with hooks）",
   "author": {
     "name": "Infinity-light",

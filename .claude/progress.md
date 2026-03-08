@@ -3,7 +3,7 @@
 ## 当前状态
 
 - 已发布并对齐：`cytopia-marketplace v1.0.4`
-- 已发布并对齐：`workflow-kit v2.3.4`
+- 已完成发布准备：`workflow-kit v2.4.0`
 - Canonical Repository：`https://github.com/Infinity-light/cytopia-marketplace`
 
 ## 当前结构（已生效）
@@ -19,3 +19,4 @@
 1. SessionStart Hook 已支持 Windows（通过 `run-hook.cmd`）
 2. 部署流程增加 `db-migration-safety` 迁移安全护栏
 3. deploy 第 2 步前，`WARN` 需通过 AskUserQuestion 三选一显式确认
+4. 新增 `plugin-publisher` Skill，用于 Claude Plugin 发布与安装/会话生效验证闭环

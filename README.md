@@ -108,6 +108,7 @@ discovery → planning → execution → deploy → verification → documentati
 |------|------|
 | key-reader | 读取密钥、配置文件 |
 | smart-fetch | 智能网页抓取 |
+| plugin-publisher | Claude Plugin 发布与生效验证 |
 | skills-updater | 更新/创建 Skill |
 | skill-creator | 创建和打包新Skill |
 | ui-ux-pro-max | UI/UX 设计规范 |
@@ -117,7 +118,7 @@ discovery → planning → execution → deploy → verification → documentati
 ## 版本信息
 
 - **Marketplace**: cytopia-marketplace v1.0.4
-- **Workflow-Kit**: v2.3.4
+- **Workflow-Kit**: v2.4.0
 - **Repository**: https://github.com/Infinity-light/cytopia-marketplace
 
 ## 许可证

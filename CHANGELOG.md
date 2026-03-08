@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0] - 2026-03-08
+
+### Added
+- **发布能力扩展**：新增 `plugin-publisher` Skill，覆盖 Claude Plugin 的 canonical source 判定、版本/索引同步、安装态检查与会话生效验证指引。
+
+### Changed
+- **Discovery 重构**：将 Discovery 重心调整为全路径勘测、关键未决项清零、结论确认后再固化 PRD，并明确与 Planning 的阶段衔接规则。
+- **发布准备同步**：对齐 `workflow-kit`、marketplace 索引与仓库内版本展示，作为正式发版前的本地准备基线。
+
 ## [2.3.4] - 2026-03-05
 
 ### Changed
