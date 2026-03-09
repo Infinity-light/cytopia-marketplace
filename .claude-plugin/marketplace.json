@@ -20,6 +20,19 @@
       "category": "productivity",
       "keywords": ["workflow", "skills", "discovery", "planning", "execution", "diagnosis", "verification", "deploy"],
       "strict": true
+    },
+    {
+      "name": "narrative-media-workflow",
+      "source": "./skills/narrative-media-workflow",
+      "description": "Narrative media dry-run workflow plugin for chapter intake, provider planning, orchestration, and production review.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Cytopia Inc.",
+        "url": "https://github.com/Infinity-light"
+      },
+      "category": "productivity",
+      "keywords": ["narrative-media", "workflow", "story", "provider-planning", "pipeline", "production-review"],
+      "strict": true
     }
   ]
 }

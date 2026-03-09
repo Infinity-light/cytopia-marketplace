@@ -1,0 +1,19 @@
+{
+  "name": "narrative-media-workflow",
+  "version": "0.1.0",
+  "description": "Narrative media dry-run workflow plugin for chapter intake, provider planning, pipeline orchestration, and production review.",
+  "author": {
+    "name": "Cytopia Inc.",
+    "url": "https://github.com/Infinity-light"
+  },
+  "repository": "https://github.com/Infinity-light/cytopia-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "narrative-media",
+    "workflow",
+    "story",
+    "provider-planning",
+    "pipeline",
+    "production-review"
+  ]
+}
